@@ -13,12 +13,33 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
+        //controller values - wont ever change
+    public static final int leftTrigger = 2;
+    public static final int rightTrigger = 3;
+    public static final int leftStickX = 0;
+    public static final int leftStickY = 1;
+    public static final int rightStickX = 4;
+    public static final int rightStickY = 5;
+    public static final int aButton = 1;
+    public static final int bButton = 2;
+    public static final int xButton = 3;
+    public static final int yButton = 4;
+    public static final int leftBumper = 5;
+    public static final int rightBumper = 6;
+
+
     public static final int driverPort = 0;
 
     public static final int motorFL = 0;
     public static final int motorBL = 1;
     public static final int motorFR = 2;
     public static final int motorBR = 3;
+
+    public static final int motorIntake = 0;
+    
+    public static final int intakeFeedButton = aButton;
+
+    public static int motorFeeder;
 
     
 }
